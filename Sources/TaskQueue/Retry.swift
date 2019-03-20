@@ -142,6 +142,6 @@ public func retry( max: Int = 3, retryStrategy: Retry.Strategy = .immediate, _ c
 
 @discardableResult
 public func retryAsync( max: Int = 3, retryStrategy: Retry.Strategy = .immediate, _ closure: @escaping () throws -> Void) -> Retry {
-    let customQueue: DispatchQueue? = Thread.isMainThread ? nil : DispatchQueue(label: "RetryQueue")
+    let customQueue: DispatchQueue? = Thread.isMainThread ? .main : DispatchQueue(label: "RetryQueue")
     return Retry(operatingQueue: customQueue, closure: closure, max: max, strategy: retryStrategy).running()
 }

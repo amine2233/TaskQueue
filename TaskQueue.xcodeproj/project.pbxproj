@@ -25,6 +25,9 @@
 		AAD92E6B2242762300D1144B /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92E652242762300D1144B /* TaskQueue.swift */; };
 		AAD92E6C2242762300D1144B /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92E652242762300D1144B /* TaskQueue.swift */; };
 		AAD92E6D2242762300D1144B /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92E652242762300D1144B /* TaskQueue.swift */; };
+		AAD92E6F224279D700D1144B /* RetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92E6E224279D700D1144B /* RetryTests.swift */; };
+		AAD92E71224279DB00D1144B /* RetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92E6E224279D700D1144B /* RetryTests.swift */; };
+		AAD92E72224279DC00D1144B /* RetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92E6E224279D700D1144B /* RetryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,7 @@
 		AAD92E5C2242747B00D1144B /* TaskQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
 		AAD92E642242762300D1144B /* Retry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Retry.swift; sourceTree = "<group>"; };
 		AAD92E652242762300D1144B /* TaskQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskQueue.swift; sourceTree = "<group>"; };
+		AAD92E6E224279D700D1144B /* RetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				AAD92E542242747B00D1144B /* TaskQueueTests.swift */,
+				AAD92E6E224279D700D1144B /* RetryTests.swift */,
 			);
 			path = TaskQueueTests;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD92E6F224279D700D1144B /* RetryTests.swift in Sources */,
 				AAD92E61224274C800D1144B /* TaskQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD92E71224279DB00D1144B /* RetryTests.swift in Sources */,
 				AAD92E62224274C900D1144B /* TaskQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD92E72224279DC00D1144B /* RetryTests.swift in Sources */,
 				AAD92E63224274CA00D1144B /* TaskQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
